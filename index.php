@@ -1,6 +1,10 @@
 <?php
-$title = "Ahmed Ibrahim - "
-
+$title = "Ahmed Ibrahim - ";
+$num = 40;
+$float = 3.14;
+$bool = true;
+$bool2 = false;
+$nothing = Null;
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +16,11 @@ $title = "Ahmed Ibrahim - "
     <title><?php echo $title . "Home Page"?></title>
 </head>
 <body>
-    <?php echo "<h1>Welcome to $title</h1>" ?>
+    <?php
+     echo "<h1>Welcome to $title</h1>";
+     echo $num;
+     echo $float;
+
+    ?>
 </body>
 </html>
